@@ -76,7 +76,7 @@ public class PalindromeNumber {
 ```
 
 
-#2 String Reduce
+#  4. String Reduce
 
 ```java
 public class StringReduce {
@@ -105,16 +105,47 @@ public class StringReduce {
 ```
 
 
-#2 
+# 5.  Find Vowel Pairs
 
 ```java
+public class FindVowelPairs {
+    private static boolean isVowel(char ch) {
+        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
+    }
 
+    private static List<String> getVowelPairs(String str) {
+        List<String> pairs = new ArrayList<>();
+
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (isVowel(str.charAt(i)) && isVowel(str.charAt(i + 1))) {
+                pairs.add("" + str.charAt(i) + str.charAt(i + 1));
+            }
+        }
+        return pairs;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getVowelPairs("abaebio"));
+    }
+}
 ```
 
 
-#2 
+# 6 Remove Duplicate Elements 
 
 ```java
+public class RemoveAllDupElements {
+    private static int removeDupElement(int[] numbers) {
+        int res = 0;
+        for (int num: numbers){
+            res = res ^ num;
+        }
+        return res;
+    }
 
+    public static void main(String[] args) {
+        System.out.println(removeDupElement(new int[]{1, 2, 3, 1, 2}));
+    }
+}
 ```
 
