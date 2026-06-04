@@ -1,4 +1,4 @@
-#1 - Find the longest common prefix
+# 1 - Find the longest common prefix
 
 ```java
 public class FindLogestCommonPrefix {
@@ -28,17 +28,51 @@ public class FindLogestCommonPrefix {
 }
 ```
 
-#2 
+# 2. String Palindrome
 
 ```java
+public class PalindromeString {
+
+    // for Palindrome always compare left & right
+    public static boolean isPalindrome(String str) {
+        int left = 0;
+        int right = str.length() - 1;
+
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPalindrome("madam"));
+    }
+}
 
 ```
 
 
-#2 
+# 3. Palindrome Number
 
 ```java
-
+public class PalindromeNumber {
+    public static boolean isPalindrome(int num) {
+        int reverseNum = 0;
+        while (num != 0) {
+            int lastDigit = reverseNum % 10;
+            reverseNum = (reverseNum * 10) + lastDigit;
+            num = num / 10;
+        }
+        return num == reverseNum;
+    }
+    public static void main(String[] args) {
+        System.out.println(isPalindrome(121));
+    }
+}
 ```
 
 
