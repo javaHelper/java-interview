@@ -76,10 +76,32 @@ public class PalindromeNumber {
 ```
 
 
-#2 
+#2 String Reduce
 
 ```java
+public class StringReduce {
+    public static int stringReduce(String str) {
+        StringBuilder res = new StringBuilder();
+        for (char ch : str.toCharArray()) {
+            // check if any char added
+            int len = res.length();
+            if (len > 1) {
+                char top = res.charAt(len - 1);
+                if ((top == '1' && ch == '0') || (top == '0' && ch == '1')) {
+                    res.deleteCharAt(res.length() - 1);
+                    continue;
+                }
+            }
+            res.append(ch);
+        }
+        return res.length();
+    }
 
+    public static void main(String[] args) { 
+        System.out.println(stringReduce("100111"));  // 2
+        System.out.println(stringReduce("000*111"));  //7 
+    }
+}
 ```
 
 
