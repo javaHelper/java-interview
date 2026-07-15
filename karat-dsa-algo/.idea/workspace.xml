@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="583767f6-adb2-44f1-b3a1-d775d2d5c579" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/AddDigits_258.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/AddStrings_415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/BestTimeToBuySellStock_121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ClimbingStairs_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ContainsDuplicate_217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/CountingBits_338.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfTheYear_1154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfWeek_1185.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DestinationCity_1436.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DetectCapital_520.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DivideTwoIntegers_29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ExcelSheetColTitle_168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindHighestAltitude_1732.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMinValueInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindPivotIndex_724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindTheDifference_389.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindVowelPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/HammingWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LargestOddNumberInString_1903.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LengthOfLastWord_58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LongestCommonPrefix_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MajorityElement_169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MaxNumberOfBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MaximumSubarray_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MissingNumber_268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MoveZeros_283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/NumOfGoodPairs_1512.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/NumberComplement_476.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PalindromeNumber_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PalindromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PowerOfFour_342.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RemoveAdjDuplicatesInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseString_344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseTheArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RomanToInteger_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RotateString_796.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/SingleNumber_136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/StringReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/SumTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/TwoSumInputSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/TwoSum_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/UglyNumber_263.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/UniqueNumberOfOccurrences_1207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidPalindrome_125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidParentheses_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidParenthesis_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidPerfectSquare_367.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/WaterBottles_1518.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/WordWrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/XcelSheelColNo_171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java/DequeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/array/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/prats/Documents/Prateek/java-interview/karat-dsa-algo" value="3G5BE2ljlEQP0MVY41DvRvMQJ0F" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;javaHelper&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/javaHelper/java-interview.git&quot;,
+    &quot;accountId&quot;: &quot;5ba7c89d-64bf-4738-9164-1ed86f0a4938&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3G5BE2ljlEQP0MVY41DvRvMQJ0F" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddDigits.executor": "Run",
+    "Application.AddDigits_258.executor": "Run",
+    "Application.AddStrings_415.executor": "Run",
+    "Application.BestTimeToBuySellStock.executor": "Run",
+    "Application.BestTimeToBuySellStock_121.executor": "Debug",
+    "Application.ClimbingStairs_70.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.CountingBits_338.executor": "Run",
+    "Application.DayOfTheYear_1154.executor": "Run",
+    "Application.DayOfWeek_1185.executor": "Run",
+    "Application.DequeExample.executor": "Debug",
+    "Application.DestinationCity_1436.executor": "Run",
+    "Application.DetectCapital_520.executor": "Run",
+    "Application.DivideTwoIntegers_29.executor": "Debug",
+    "Application.ExcelSheetColTitle_168.executor": "Run",
+    "Application.FindHighestAltitude_1732.executor": "Run",
+    "Application.FindMinValueInArray.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.FindPivotIndex_724.executor": "Run",
+    "Application.FindTheDifference_389.executor": "Run",
+    "Application.HammingWeight.executor": "Run",
+    "Application.LengthOfLastWord_58.executor": "Run",
+    "Application.MajorityElement_169.executor": "Run",
+    "Application.MaxNumberOfBalloons.executor": "Run",
+    "Application.MaximumSubarray_53.executor": "Debug",
+    "Application.MissingNumber_268.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.NumOfGoodPairs.executor": "Run",
+    "Application.NumberComplement_476.executor": "Run",
+    "Application.PowerOfFour_342.executor": "Run",
+    "Application.RansomNote.executor": "Debug",
+    "Application.RemoveAdjDuplicatesInString.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.ReverseString_344.executor": "Run",
+    "Application.ReverseTheArray.executor": "Run",
+    "Application.RomanToInteger_13.executor": "Debug",
+    "Application.RotateString_796.executor": "Run",
+    "Application.SingleNumber.executor": "Run",
+    "Application.SumTwoIntegers.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.TwoSumInputSorted.executor": "Run",
+    "Application.UglyNumber_263.executor": "Run",
+    "Application.UniqueNumberOfOccurrences_1207.executor": "Run",
+    "Application.ValidPalindrome_125.executor": "Run",
+    "Application.ValidParenthesis.executor": "Run",
+    "Application.ValidPerfectSquare_367.executor": "Run",
+    "Application.WaterBottles_1518.executor": "Run",
+    "Application.XcelSheelColNo.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.FindMissingNumber">
+    <configuration name="AddStrings_415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.array.AddStrings_415" />
+      <module name="karat-dsa-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestTimeToBuySellStock_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.array.BestTimeToBuySellStock_121" />
+      <module name="karat-dsa-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.array.ClimbingStairs_70" />
+      <module name="karat-dsa-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMinValueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.array.FindMinValueInArray" />
+      <module name="karat-dsa-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.array.FindMissingNumber" />
+      <module name="karat-dsa-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.FindMinValueInArray" />
+        <item itemvalue="Application.ClimbingStairs_70" />
+        <item itemvalue="Application.BestTimeToBuySellStock_121" />
+        <item itemvalue="Application.AddStrings_415" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="583767f6-adb2-44f1-b3a1-d775d2d5c579" name="Changes" comment="" />
+      <created>1783251434347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783251434347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/RansomNote.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/NumOfGoodPairs_1512.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/TwoSum_1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/ReverseNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/DivideTwoIntegers_29.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/RomanToInteger_13.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/MaximumSubarray_53.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/java/DequeExample.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
