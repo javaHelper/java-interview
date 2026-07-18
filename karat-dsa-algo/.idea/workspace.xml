@@ -4,68 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="583767f6-adb2-44f1-b3a1-d775d2d5c579" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/AddDigits_258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/AddStrings_415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/BestTimeToBuySellStock_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ClimbingStairs_70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ContainsDuplicate_217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/CountingBits_338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfTheYear_1154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfWeek_1185.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DestinationCity_1436.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DetectCapital_520.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/DivideTwoIntegers_29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ExcelSheetColTitle_168.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindHighestAltitude_1732.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMinValueInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindPivotIndex_724.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindTheDifference_389.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindVowelPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/HammingWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LargestOddNumberInString_1903.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LengthOfLastWord_58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/LongestCommonPrefix_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MajorityElement_169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MaxNumberOfBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MaximumSubarray_53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MissingNumber_268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/MoveZeros_283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/NumOfGoodPairs_1512.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/NumberComplement_476.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PalindromeNumber_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PalindromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/PowerOfFour_342.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RansomNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RemoveAdjDuplicatesInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseString_344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ReverseTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RomanToInteger_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/RotateString_796.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/SingleNumber_136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/StringReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/SumTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/TwoSumInputSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/TwoSum_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/UglyNumber_263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/UniqueNumberOfOccurrences_1207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidPalindrome_125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidParentheses_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidParenthesis_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ValidPerfectSquare_367.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/WaterBottles_1518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/WordWrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/XcelSheelColNo_171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java/DequeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/array/AppTest.java" afterDir="false" />
+    <list default="true" id="583767f6-adb2-44f1-b3a1-d775d2d5c579" name="Changes" comment="DSA Leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMissingNumberFrom1_268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindUniqueCharInString_387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/array/ThirdMaximumNumber_414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java/CharacterLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/low/PowerOfThree_326.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/AverageOfLevelsInBinaryTree_637.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BalancedBinaryTree_110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreeInorderTraversal_94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreeLevelOrderTraversalII_107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreeLevelOrderTraversal_102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreePaths_257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreePostorderTraversal_145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreePreorderTraversal_144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BinaryTreeRightSideView_199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/BuildLevelOrderArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/DiameterOfBinaryTree_543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/InvertBinaryTree_226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/MaximumDepthOfBinaryTree_104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/MinimumDepthOfBinaryTree_111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/PathSum_112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/SameTree_100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/SumOfLeftLeaves_404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/SymmetricTree_101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfTheYear_1154.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/low/DayOfTheYear_1154.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/DayOfWeek_1185.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/low/DayOfWeek_1185.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/DetectCapital_520.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/low/DetectCapital_520.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindMissingNumber_268.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/FindTheDifference_389.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/array/FindTheDifference_389.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/array/HammingWeight_191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/MissingNumber_268.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/PowerOfFour_342.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/low/PowerOfFour_342.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/StringReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/array/StringReduce_interview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/UglyNumber_263.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/array/UglyNumber_263.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/array/ValidPerfectSquare_367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/low/ValidPerfectSquare_367.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +90,17 @@
     "Application.AddDigits.executor": "Run",
     "Application.AddDigits_258.executor": "Run",
     "Application.AddStrings_415.executor": "Run",
+    "Application.AverageOfLevelsInBinaryTree_637.executor": "Run",
+    "Application.BalancedBinaryTree_110.executor": "Run",
     "Application.BestTimeToBuySellStock.executor": "Run",
     "Application.BestTimeToBuySellStock_121.executor": "Debug",
+    "Application.BinaryTreeInorderTraversal_94.executor": "Run",
+    "Application.BinaryTreeLevelOrderTraversalII_107.executor": "Run",
+    "Application.BinaryTreeLevelOrderTraversal_102.executor": "Run",
+    "Application.BinaryTreePaths_257.executor": "Run",
+    "Application.BinaryTreePostorderTraversal_145.executor": "Run",
+    "Application.BinaryTreePreorderTraversal_144.executor": "Run",
+    "Application.CharacterLearning.executor": "Run",
     "Application.ClimbingStairs_70.executor": "Run",
     "Application.ContainsDuplicate.executor": "Run",
     "Application.CountingBits_338.executor": "Run",
@@ -125,23 +109,32 @@
     "Application.DequeExample.executor": "Debug",
     "Application.DestinationCity_1436.executor": "Run",
     "Application.DetectCapital_520.executor": "Run",
+    "Application.DiameterOfBinaryTree_543.executor": "Run",
     "Application.DivideTwoIntegers_29.executor": "Debug",
     "Application.ExcelSheetColTitle_168.executor": "Run",
     "Application.FindHighestAltitude_1732.executor": "Run",
     "Application.FindMinValueInArray.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
+    "Application.FindMissingNumberFrom1_268.executor": "Run",
     "Application.FindPivotIndex_724.executor": "Run",
     "Application.FindTheDifference_389.executor": "Run",
+    "Application.FindUniqueCharInString_387.executor": "Debug",
     "Application.HammingWeight.executor": "Run",
+    "Application.HammingWeight_191.executor": "Run",
+    "Application.InvertBinaryTree_226.executor": "Run",
     "Application.LengthOfLastWord_58.executor": "Run",
     "Application.MajorityElement_169.executor": "Run",
     "Application.MaxNumberOfBalloons.executor": "Run",
+    "Application.MaximumDepthOfBinaryTree_104.executor": "Run",
     "Application.MaximumSubarray_53.executor": "Debug",
+    "Application.MinimumDepthOfBinaryTree_111.executor": "Debug",
     "Application.MissingNumber_268.executor": "Run",
     "Application.MoveZeros.executor": "Run",
     "Application.NumOfGoodPairs.executor": "Run",
     "Application.NumberComplement_476.executor": "Run",
+    "Application.PathSum_112.executor": "Run",
     "Application.PowerOfFour_342.executor": "Run",
+    "Application.PowerOfThree_326.executor": "Run",
     "Application.RansomNote.executor": "Debug",
     "Application.RemoveAdjDuplicatesInString.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
@@ -149,14 +142,20 @@
     "Application.ReverseTheArray.executor": "Run",
     "Application.RomanToInteger_13.executor": "Debug",
     "Application.RotateString_796.executor": "Run",
+    "Application.SameTree_100.executor": "Run",
     "Application.SingleNumber.executor": "Run",
+    "Application.SumOfLeftLeaves_404.executor": "Run",
     "Application.SumTwoIntegers.executor": "Run",
+    "Application.SymmetricTree_101.executor": "Run",
+    "Application.ThirdMaximumNumber_414.executor": "Run",
+    "Application.TreeDemo.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumInputSorted.executor": "Run",
     "Application.UglyNumber_263.executor": "Run",
     "Application.UniqueNumberOfOccurrences_1207.executor": "Run",
     "Application.ValidPalindrome_125.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.ValidParenthesis_20.executor": "Debug",
     "Application.ValidPerfectSquare_367.executor": "Run",
     "Application.WaterBottles_1518.executor": "Run",
     "Application.XcelSheelColNo.executor": "Run",
@@ -173,13 +172,18 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindMissingNumber">
-    <configuration name="AddStrings_415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.array.AddStrings_415" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.tree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversalII_107">
+    <configuration name="AverageOfLevelsInBinaryTree_637" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tree.AverageOfLevelsInBinaryTree_637" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.array.*" />
+          <option name="PATTERN" value="com.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuySellStock_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.array.BestTimeToBuySellStock_121" />
+    <configuration name="BinaryTreeLevelOrderTraversalII_107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tree.BinaryTreeLevelOrderTraversalII_107" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.array.*" />
+          <option name="PATTERN" value="com.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.array.ClimbingStairs_70" />
+    <configuration name="BinaryTreePaths_257" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tree.BinaryTreePaths_257" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.array.*" />
+          <option name="PATTERN" value="com.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinValueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.array.FindMinValueInArray" />
+    <configuration name="DiameterOfBinaryTree_543" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tree.DiameterOfBinaryTree_543" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.array.*" />
+          <option name="PATTERN" value="com.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.array.FindMissingNumber" />
+    <configuration name="InvertBinaryTree_226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tree.InvertBinaryTree_226" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.array.*" />
+          <option name="PATTERN" value="com.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMissingNumber" />
-        <item itemvalue="Application.FindMinValueInArray" />
-        <item itemvalue="Application.ClimbingStairs_70" />
-        <item itemvalue="Application.BestTimeToBuySellStock_121" />
-        <item itemvalue="Application.AddStrings_415" />
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversalII_107" />
+        <item itemvalue="Application.AverageOfLevelsInBinaryTree_637" />
+        <item itemvalue="Application.DiameterOfBinaryTree_543" />
+        <item itemvalue="Application.BinaryTreePaths_257" />
+        <item itemvalue="Application.InvertBinaryTree_226" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +268,20 @@
       <option name="presentableId" value="Default" />
       <updated>1783251434347</updated>
     </task>
+    <task id="LOCAL-00001" summary="DSA Leetcode">
+      <option name="closed" value="true" />
+      <created>1784126703561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784126703561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DSA Leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +325,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/java/DequeExample.java</url>
           <line>10</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/ValidParenthesis_20.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/array/FindUniqueCharInString_387.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/tree/MinimumDepthOfBinaryTree_111.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

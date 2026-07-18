@@ -1,6 +1,4 @@
-package com.example.array;
-
-import java.util.Map;
+package com.example.low;
 
 public class ValidPerfectSquare_367 {
     public boolean isPerfectSquare(int num) {

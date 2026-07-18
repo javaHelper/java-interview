@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.low;
 
 public class DayOfTheYear_1154 {
 

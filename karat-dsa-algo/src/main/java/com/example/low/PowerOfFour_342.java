@@ -1,11 +1,12 @@
-package com.example.array;
+package com.example.low;
 
 public class PowerOfFour_342 {
     public boolean isPowerOfFour(int n) {
-        if (n <= 0) return false;
+        if (n <= 0)
+            return false;
 
         while (n % 4 == 0) {
-            n /= 4;
+            n = n / 4;
         }
         return n == 1;
     }

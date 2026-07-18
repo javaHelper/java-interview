@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.low;
 
 public class DetectCapital_520 {
     public boolean detectCapitalUse(String word) {

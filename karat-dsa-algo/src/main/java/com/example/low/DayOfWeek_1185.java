@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.low;
 
 public class DayOfWeek_1185 {
     public String dayOfTheWeek(int day, int month, int year) {

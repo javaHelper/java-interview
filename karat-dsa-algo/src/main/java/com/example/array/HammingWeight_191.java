@@ -1,6 +1,6 @@
 package com.example.array;
 
-public class HammingWeight {
+public class HammingWeight_191 {
     public static int hammingWeight(int num) {
         int count = 0;
         while (num != 0) {

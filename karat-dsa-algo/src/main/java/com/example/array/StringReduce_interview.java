@@ -1,6 +1,6 @@
 package com.example.array;
 
-public class StringReduce {
+public class StringReduce_interview {
     public static int stringReduce(String str) {
         StringBuilder stack = new StringBuilder();
 
