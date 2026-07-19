@@ -10,6 +10,11 @@ import java.util.*;
  * preorder: root --> left subtree --> right subtree
  * post order: left subtree --> right subtree --> root
  */
+/**
+ * Preorder Traversal (Root → Left → Right)
+ * Inorder Traversal (Left → Root → Right)
+ * Postorder Traversal (Left → Right → Root)
+ */
 public class BinaryTreeInorderTraversal_94 {
 
     // ---------- The required solution ----------

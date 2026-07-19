@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.twopointers;
 
 public class MoveZeros_283 {
     public static int[] moveZeros(int[] arr) {

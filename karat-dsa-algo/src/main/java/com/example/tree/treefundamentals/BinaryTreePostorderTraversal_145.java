@@ -6,6 +6,11 @@ import com.example.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Preorder Traversal (Root → Left → Right)
+ * Inorder Traversal (Left → Root → Right)
+ * Postorder Traversal (Left → Right → Root)
+ */
 public class BinaryTreePostorderTraversal_145 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> results = new ArrayList<>();
