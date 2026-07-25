@@ -5,8 +5,7 @@ public class ReverseNumber {
         int result = 0;
         // get the last number
         while (num != 0) {
-            int lastDigit = num % 10;
-            result = result * 10 + lastDigit;
+            result = result * 10 + num % 10;
             num = num / 10;
         }
         result = result / 10;

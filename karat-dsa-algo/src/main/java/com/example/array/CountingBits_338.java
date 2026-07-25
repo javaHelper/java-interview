@@ -3,6 +3,7 @@ package com.example.array;
 import java.util.Arrays;
 
 public class CountingBits_338 {
+
     public int[] countBits(int n){
         int[] result = new int[n + 1];
         for (int i = 1; i <= n; i++) {

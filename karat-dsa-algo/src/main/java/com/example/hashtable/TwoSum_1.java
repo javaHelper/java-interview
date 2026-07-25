@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.hashtable;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -26,7 +26,7 @@ public class TwoSum_1 {
 
     public static void main(String[] args) {
         TwoSum_1 twoSum = new TwoSum_1();
-        System.out.println(Arrays.toString(twoSum.twoSum(new int[]{2, 7, 11, 15}, 9))); // Output: [0, 1]
+        //System.out.println(Arrays.toString(twoSum.twoSum(new int[]{2, 7, 11, 15}, 9))); // Output: [0, 1]
         System.out.println(Arrays.toString(twoSum.twoSum(new int[]{3, 2, 4}, 6))); // Output: [1, 2]
         System.out.println(Arrays.toString(twoSum.twoSum(new int[]{3, 3}, 6))); // Output: [0, 1]   '
         System.out.println(Arrays.toString(twoSum.twoSum(new int[]{1, 2, 3, 4, 5}, 9))); // Output: [3, 4]

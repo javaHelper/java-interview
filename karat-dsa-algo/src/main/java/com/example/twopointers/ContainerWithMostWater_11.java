@@ -21,20 +21,4 @@ public class ContainerWithMostWater_11 {
         }
         return maxWater;
     }
-
-    static void main() {
-        ContainerWithMostWater_11 sol = new ContainerWithMostWater_11();
-
-        int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        System.out.println("Max water (example): " + sol.maxArea(height1)); // 49
-
-        int[] height2 = {1, 1};
-        System.out.println("Max water ([1,1]): " + sol.maxArea(height2));   // 1
-
-        int[] height3 = {4, 3, 2, 1, 4};
-        System.out.println("Max water ([4,3,2,1,4]): " + sol.maxArea(height3)); // 16
-
-        int[] height4 = {1, 2, 1};
-        System.out.println("Max water ([1,2,1]): " + sol.maxArea(height4)); // 2
-    }
 }

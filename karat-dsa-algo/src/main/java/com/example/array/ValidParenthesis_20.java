@@ -19,6 +19,7 @@ public class ValidParenthesis_20 {
                 }
             }
         }
+        // At this stage - it should be empty
         return stack.isEmpty();
     }
 

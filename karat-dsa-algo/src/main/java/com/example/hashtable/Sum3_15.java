@@ -1,4 +1,4 @@
-package com.example.twopointers;
+package com.example.hashtable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

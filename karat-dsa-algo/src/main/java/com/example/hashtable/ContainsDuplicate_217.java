@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.hashtable;
 
 import java.util.HashSet;
 import java.util.Set;

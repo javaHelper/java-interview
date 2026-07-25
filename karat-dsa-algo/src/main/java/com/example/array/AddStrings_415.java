@@ -25,8 +25,8 @@ public class AddStrings_415 {
 
     public static void main(String[] args) {
         AddStrings_415 a = new AddStrings_415();
-        System.out.println(a.addStrings("11", "123"));
-        System.out.println(a.addStrings("456", "77"));
-        System.out.println(a.addStrings("0", "0"));
+        System.out.println(a.addStrings("11", "123"));   //134
+        System.out.println(a.addStrings("456", "77"));  // 533
+        System.out.println(a.addStrings("0", "0")); //0
     }
 }

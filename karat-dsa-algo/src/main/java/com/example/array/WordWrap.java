@@ -4,16 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WordWrap {
-    public static void main(String[] args) {
-        String[] words1 = {
-                "The", "day", "began", "as", "still", "as", "the",
-                "night", "abruptly", "lighted", "with", "brilliant",
-                "flame"
-        };
-
-        System.out.println(wrapLines(words1, 13));
-        System.out.println(wrapLines(words1, 12));
-    }
 
     private static List<String> wrapLines(String[] words, int maxLen) {
         List<String> res = new ArrayList<>();
@@ -34,5 +24,16 @@ public class WordWrap {
             }
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        String[] words1 = {
+                "The", "day", "began", "as", "still", "as", "the",
+                "night", "abruptly", "lighted", "with", "brilliant",
+                "flame"
+        };
+
+        System.out.println(wrapLines(words1, 13));
+        System.out.println(wrapLines(words1, 12));
     }
 }
