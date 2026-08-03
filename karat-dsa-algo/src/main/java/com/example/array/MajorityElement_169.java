@@ -36,9 +36,19 @@ public class MajorityElement_169 {
      * 4	3	4	num == candidate → count++
      * Final candidate = 4, which is the majority.
      *
+     * The Intuition: "Pairing and Canceling"
+     * ------------------------------------------
+     * Imagine you are in a room full of people wearing jerseys. Each jersey has a number. If two people with different numbers meet,
+     * they both "cancel out" and leave the room.
+     * If a single number makes up more than half the room, no matter how the canceling happens, that dominant number must have at
+     * least one person left standing at the end. The algorithm simulates this exact canceling process.
      */
+
     public int majorityElement(int[] nums) {
+        // Holds the current number we suspect is the majority.
         int candidate = 0;
+
+        // Holds the "net strength" of our suspicion. A positive count means this candidate has survived cancellations so far.
         int count = 0;
 
         // Phase-1: find candidate

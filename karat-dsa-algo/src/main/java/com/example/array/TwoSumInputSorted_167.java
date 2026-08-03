@@ -2,7 +2,7 @@ package com.example.array;
 
 import java.util.Arrays;
 
-public class TwoSumInputSorted {
+public class TwoSumInputSorted_167 {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;
@@ -21,7 +21,7 @@ public class TwoSumInputSorted {
     }
 
     public static void main(String[] args) {
-        TwoSumInputSorted solution = new TwoSumInputSorted();
+        TwoSumInputSorted_167 solution = new TwoSumInputSorted_167();
         System.out.println(Arrays.toString(solution.twoSum(new int[]{2, 7, 11, 15}, 9))); // Output: [1, 2]
         System.out.println(Arrays.toString(solution.twoSum(new int[]{2, 3, 4}, 6))); // Output: [1, 3]
         System.out.println(Arrays.toString(solution.twoSum(new int[]{-1, 0}, -1))); // Output: [1, 2]

@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.bitmanupulation;
 
 public class FindMissingNumber_268 {
     public int missingNumber(int[] nums) {

@@ -28,4 +28,10 @@ public class LongestSubstringWORepeatingCharacters_3 {
 
         return maxLen;
     }
+
+    static void main() {
+        LongestSubstringWORepeatingCharacters_3 l = new LongestSubstringWORepeatingCharacters_3();
+        System.out.println(l.lengthOfLongestSubstring("zxyzxyz"));
+        System.out.println(l.lengthOfLongestSubstring("xxxx"));
+    }
 }

@@ -33,4 +33,14 @@ public class ListNodeHelper {
         }
         return result;
     }
+
+    // Helper: print the linked list
+    public static void printList(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val);
+            if (head.next != null) System.out.print(" -> ");
+            head = head.next;
+        }
+        System.out.println();
+    }
 }

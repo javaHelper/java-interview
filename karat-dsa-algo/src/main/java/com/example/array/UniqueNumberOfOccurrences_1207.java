@@ -5,6 +5,13 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Time Complexity: O(n) – One pass to count, one pass to check uniqueness
+ * Space Complexity: O(n) – For the HashMap and HashSet
+ *
+ * Why this is best: Clean, readable, works for any integer values (not just the constrained range),
+ * and is the most common interview solution
+ */
 public class UniqueNumberOfOccurrences_1207 {
     public boolean uniqueOccurrences(int[] arr) {
         // Count frequencies

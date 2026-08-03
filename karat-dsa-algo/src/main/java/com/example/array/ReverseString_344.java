@@ -2,6 +2,16 @@ package com.example.array;
 
 import java.util.Arrays;
 
+/**
+ * Two-Pointer (Recommended)
+ * Intuition: Use two pointers starting from both ends of the array and swap characters as they move toward
+ * the center
+ *
+ * Time Complexity: O(n) – Each character is visited once
+ * Space Complexity: O(1) – In-place reversal without extra memory
+ *
+ * Why this is best: Most efficient, meets the in-place requirement, and is the expected interview solution
+ */
 public class ReverseString_344 {
     public void reverseString(char[] s) {
         int left = 0;

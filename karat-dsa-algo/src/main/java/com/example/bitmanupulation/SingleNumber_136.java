@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.bitmanupulation;
 
 public class SingleNumber_136 {
     public static int singleNumber(int[] arr) {

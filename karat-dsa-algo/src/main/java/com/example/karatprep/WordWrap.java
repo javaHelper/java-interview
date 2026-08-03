@@ -1,17 +1,17 @@
-package com.example.array;
+package com.example.karatprep;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class WordWrap {
 
-    private static List<String> wrapLines(String[] words, int maxLen) {
+    public List<String> wrapLines(String[] words, int maxLen) {
         List<String> res = new ArrayList<>();
 
         StringBuilder builder = new StringBuilder();
 
         for (String word : words) {
-            if (builder.length() == 0) {
+            if (builder.isEmpty()) {
                 builder.append(word);
             } else {
                 int potentialLen = word.length() + 1 + builder.length();
@@ -32,8 +32,8 @@ public class WordWrap {
                 "night", "abruptly", "lighted", "with", "brilliant",
                 "flame"
         };
-
-        System.out.println(wrapLines(words1, 13));
-        System.out.println(wrapLines(words1, 12));
+        WordWrap w = new WordWrap();
+        System.out.println(w.wrapLines(words1, 13));
+        System.out.println(w.wrapLines(words1, 12));
     }
 }

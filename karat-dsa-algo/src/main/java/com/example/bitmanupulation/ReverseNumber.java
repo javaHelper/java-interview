@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.bitmanupulation;
 
 public class ReverseNumber {
     public int reverseNumber(int num) {
@@ -20,12 +20,12 @@ public class ReverseNumber {
 
     public static void main(String[] args) {
         ReverseNumber rn = new ReverseNumber();
-//        System.out.println(rn.reverseNumber(123)); // Output: 321
-//        System.out.println(rn.reverseNumber(-456)); // Output: -654
-//        System.out.println(rn.reverseNumber(1000)); // Output: 1
-//        System.out.println(rn.reverseNumber(0)); // Output: 0
-//        System.out.println(rn.reverseNumber(120)); // Output: 21
-//        System.out.println(rn.reverseNumber(-120)); // Output: -21
+        System.out.println(rn.reverseNumber(123)); // Output: 321
+        System.out.println(rn.reverseNumber(-456)); // Output: -654
+        System.out.println(rn.reverseNumber(1000)); // Output: 1
+        System.out.println(rn.reverseNumber(0)); // Output: 0
+        System.out.println(rn.reverseNumber(120)); // Output: 21
+        System.out.println(rn.reverseNumber(-120)); // Output: -21
         System.out.println(rn.reverseNumber(1534236469)); // Output: 0
     }
 }
