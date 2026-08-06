@@ -1,127 +1,120 @@
 package com.example.apanacollege.linkedlist;
 
-import java.util.LinkedList;
-
 public class LL {
     Node head;
     private int size;
 
-    public class Node {
+    public LL(){
+        this.size = 0;
+    }
+
+    class Node {
         String data;
         Node next;
 
-        Node(String data) {
+        public Node(String data){
             this.data = data;
             this.next = null;
             size++;
         }
     }
 
-    public void addFirst(String data) {
+    // add - first, last
+    public void addFirst(String data){
         Node newNode = new Node(data);
+        if (head == null){
+            head = newNode;
+            return;
+        }
         newNode.next = head;
         head = newNode;
     }
 
-    public void addLast(String data) {
+    public void addLast(String data){
         Node newNode = new Node(data);
-        if (head == null) {
+        if (head == null){
             head = newNode;
             return;
         }
-
-        Node lastNode = head;
-        while (lastNode.next != null) {
-            lastNode = lastNode.next;
-        }
-        lastNode.next = newNode;
-    }
-
-    public void printList() {
         Node currNode = head;
-        while (currNode != null) {
-            System.out.print(currNode.data + " -> ");
+        while (currNode.next != null){
             currNode = currNode.next;
         }
-        System.out.println("null");
+
+        currNode.next = newNode;
     }
 
-    public void removeFirst() {
-        if (head == null) {
-            System.out.println("Empty List, nothing to delete");
+    // print
+    public void printList(){
+        if(head == null){
+            System.out.println("list is empty");
             return;
         }
-        head = this.head.next;
-        size--;
+        Node currNode = head;
+        while (currNode != null){
+            System.out.print(currNode.data+" -> ");
+            currNode = currNode.next;
+        }
+        System.out.println("NULL");
     }
 
-    public void removeLast() {
-        if (head == null) {
-            System.out.println("Empty List, nothing to delete");
+    // delete first
+    public void deleteFirst(){
+        if(head == null){
+            System.out.println("The list is empty");
+            return;
+        }
+        size--;
+        head = head.next;
+    }
+
+    // delete last
+    public void deleteLast(){
+        if(head == null){
+            System.out.println("The list is empty");
             return;
         }
 
         size--;
-        if (head.next == null) {
+        if(head.next == null){
             head = null;
             return;
         }
 
-        Node currNode = head;
+
+        Node secondLast = head;
         Node lastNode = head.next;
-        while (lastNode.next != null) {
-            currNode = currNode.next;
+        while (lastNode.next != null){
             lastNode = lastNode.next;
+            secondLast = secondLast.next;
         }
-        currNode.next = null;
     }
 
-    public int getSize() {
+    public int getSize(){
         return size;
     }
 
-    public void addInMiddle(int index, String data) {
-        if (index > size || index < 0) {
-            System.out.println("Invalid Index value");
-            return;
-        }
-        size++;
-
-
-        Node newNode = new Node(data);
-        if (head == null || index == 0) {
-            newNode.next = head;
-            head = newNode;
-            return;
-        }
-        Node currNode = head;
-        for (int i = 1; i < size; i++) {
-            if (i == index) {
-                Node nextNode = currNode.next;
-                currNode.next = newNode;
-                newNode.next = nextNode;
-                break;
-            }
-            currNode = currNode.next;
-        }
-    }
 
     static void main() {
-        LinkedList<String> list = new LinkedList<String>();
-        list.add("is");
-        list.add("a");
+        LL list = new LL();
+        list.addFirst("a");
+        list.addFirst("is");
+        list.printList();
+
         list.addLast("list");
+        list.printList();
+
         list.addFirst("this");
-        list.add(3, "linked");
-        System.out.println(list);
+        list.printList();
 
+        list.deleteFirst();
+        list.printList();
 
-        System.out.println(list.get(0));
-        System.out.println(list.size());
-        list.remove(3);
-        list.removeFirst();
-        list.removeLast();
+        list.deleteLast();
+        list.printList();
 
-        System.out.println(list);
+        System.out.println(list.getSize());
+        list.addFirst("this");
+        System.out.println(list.getSize());
     }
 }

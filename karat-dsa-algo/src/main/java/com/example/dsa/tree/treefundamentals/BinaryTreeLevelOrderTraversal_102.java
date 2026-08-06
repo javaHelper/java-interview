@@ -8,7 +8,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * BFS naturally groups nodes by level.
+ *   # The size of the queue at the start of each iteration equals the number of nodes in that level.
+ *   # We process all nodes at the current level before moving to the next, ensuring correct grouping.
+ *   # The buildTree helper allows easy testing with LeetCode‑style level‑order input arrays.
+ */
 public class BinaryTreeLevelOrderTraversal_102 {
+
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
@@ -34,10 +41,8 @@ public class BinaryTreeLevelOrderTraversal_102 {
                     queue.offer(node.right);
                 }
             }
-
             result.add(currentLevel);
         }
-
         return result;
     }
 

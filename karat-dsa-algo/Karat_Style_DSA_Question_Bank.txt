@@ -1,0 +1,161 @@
+Karat-Style DSA / Coding Interview Question Bank
+
+This document focuses on implementation-heavy questions commonly
+reported by candidates in Karat interviews and similar senior backend
+interviews.
+
+1. String / Parsing
+
+-   Word Wrap
+-   Text Justification
+-   CSV Parser
+-   Log File Parser
+-   URL Shortener Encoding
+-   Markdown Parser
+-   HTML Tag Validator
+-   Unix Path Simplifier
+-   File System Path Normalizer
+-   String Compression
+-   Decode Encoded String
+-   Email Address Normalizer
+-   Version Comparator
+-   Semantic Version Sort
+-   Tokenizer
+-   Mini JSON Parser
+-   Parentheses Validator
+-   XML Streaming Parser
+-   Arithmetic Expression Evaluator
+-   Spreadsheet Formula Evaluator
+
+2. Simulation
+
+-   Parking Lot Simulation
+-   Elevator Simulator
+-   Vending Machine
+-   ATM Machine
+-   Snake Game
+-   Tetris Piece Rotation
+-   Robot Movement
+-   Chess Move Validator
+-   Tic Tac Toe Engine
+-   Connect Four
+-   Calendar Booking
+-   Meeting Room Scheduler
+-   Traffic Light Simulation
+-   Browser History
+-   LRU Cache
+-   LFU Cache
+-   Autocomplete System
+-   Text Editor
+-   File Explorer
+-   Music Playlist
+-   Twitter Feed
+
+3. Grid Problems
+
+-   Minesweeper
+-   Game of Life
+-   Island Counter
+-   Flood Fill
+-   Maze Solver
+-   Obstacle Jump Game
+-   Robot Path
+-   Shortest Path
+-   Treasure Hunt
+-   Sudoku Validator
+-   Crossword Validator
+
+4. Graph Problems
+
+-   Treasure Room Graph
+-   Dependency Resolver
+-   Build Order
+-   Social Network
+-   Friend Recommendation
+-   Course Schedule
+-   Package Manager
+-   Deadlock Detection
+-   Flight Connections
+-   Network Connectivity
+-   Clone Graph
+
+5. Data Processing
+
+-   Merge Logs
+-   Top K Search Terms
+-   Transaction Aggregator
+-   Sales Report
+-   Running Median
+-   Moving Average
+-   Sliding Window Aggregation
+-   Streaming Analytics
+-   Fraud Detection Rules
+-   Sessionization
+
+6. Custom Collections
+
+-   Design HashMap
+-   Design HashSet
+-   In-Memory Database
+-   Key Value Store
+-   Versioned Map
+-   Snapshot Array
+-   TimeMap
+-   Cache with Expiration
+-   Event Store
+-   Circular Buffer
+
+7. Interval Problems
+
+-   Merge Events
+-   Employee Calendar
+-   Booking System
+-   Room Allocation
+-   CPU Scheduling
+-   Meeting Scheduler
+-   Train Platform Problem
+
+8. Tree Problems
+
+-   File System Tree
+-   Organization Hierarchy
+-   Folder Compression
+-   Binary Tree Serialization
+-   Lowest Common Manager
+-   XML DOM Tree
+
+Frequently Reported Karat-Style Questions
+
+1.  Word Wrap
+2.  Password Validation Rules
+3.  Obstacle Jump Game
+4.  Distinct Root Nodes from an Adjacency Matrix
+5.  Validate a 2D Puzzle/Matrix Using Row & Column Constraints
+6.  Treasure Room Graph
+7.  Process a Huge XML File
+8.  Distributed Music Service Analysis
+9.  Offline vs Online Storage Tradeoffs
+10. International Expansion Design Exercise
+
+Recommended Practice Topics
+
+-   LRU Cache
+-   Browser History
+-   Design Twitter
+-   Design Excel
+-   Design Search Autocomplete
+-   Parking Lot
+-   Snake Game
+-   Calendar Booking
+-   Log Aggregator
+-   Rate Limiter
+-   URL Shortener
+-   Tiny File System
+-   Meeting Scheduler
+
+Notes
+
+These are implementation-oriented problems reconstructed from public
+interview reports, discussions, and candidate experiences. Interviewers
+often modify requirements during the interview to evaluate problem
+solving, code organization, and communication rather than memorization.

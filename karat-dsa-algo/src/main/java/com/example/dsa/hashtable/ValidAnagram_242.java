@@ -30,23 +30,23 @@ public class ValidAnagram_242 {
     /**
      * Step 1: Length Check
      * If the two strings have different lengths, they cannot be anagrams. Return false immediately
-     *
+     * <p>
      * Step 2: Create Frequency Array
      * Create an integer array of size 26 to store counts for each lowercase English letter ('a' to 'z')
-     *
+     * <p>
      * Index 0 represents 'a'
      * Index 1 represents 'b'
      * ...
      * Index 25 represents 'z'
-     *
+     * <p>
      * We use an array instead of a HashMap because the character set is limited to 26 lowercase letters,
      * making it more efficient.
-     *
+     * <p>
      * Step 3: Count and Cancel in One Pass
      * Loop through both strings simultaneously (since we already verified they have the same length):
      * - For each character in s, increment its count: freq[s.charAt(i) - 'a']++
      * - For each character in t, decrement its count: freq[t.charAt(i) - 'a']--
-     *
+     * <p>
      * The expression char - 'a' converts a character to its corresponding array index
      * If both strings have the same characters with the same frequencies, all increments and decrements
      * will cancel out, leaving zeros in the array
@@ -73,5 +73,12 @@ public class ValidAnagram_242 {
             }
         }
         return true;
+    }
+
+    static void main() {
+        ValidAnagram_242 sol = new ValidAnagram_242();
+        String s = "anagram";
+        String t = "nagaram";
+        System.out.println(sol.isAnagram1(s, t));
     }
 }

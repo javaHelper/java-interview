@@ -51,6 +51,8 @@ public class AverageOfLevelsInBinaryTree_637 {
         return result;
     }
 
+
+
     // ==================== MAIN METHOD FOR TESTING ====================
     public static void main(String[] args) {
         AverageOfLevelsInBinaryTree_637 solution = new AverageOfLevelsInBinaryTree_637();

@@ -85,18 +85,21 @@ public class BinaryTreeRightSideView_199 {
         TreeNode root1 = BuildLevelOrderArray.buildTreeLevelOrder(arr1);
         System.out.println("Test 1 (BFS): " + solution.rightSideViewBFS(root1));
         System.out.println("Test 1 (DFS): " + solution.rightSideViewDFS(root1));
+        System.out.println();
 
         // Test case 2: [1,null,3] → Expected: [1,3]
         Integer[] arr2 = {1, null, 3};
         TreeNode root2 = BuildLevelOrderArray.buildTreeLevelOrder(arr2);
         System.out.println("Test 2 (BFS): " + solution.rightSideViewBFS(root2));
         System.out.println("Test 2 (DFS): " + solution.rightSideViewDFS(root2));
+        System.out.println();
 
         // Test case 3: [] → Expected: []
         Integer[] arr3 = {};
         TreeNode root3 = BuildLevelOrderArray.buildTreeLevelOrder(arr3);
         System.out.println("Test 3 (BFS): " + solution.rightSideViewBFS(root3));
         System.out.println("Test 3 (DFS): " + solution.rightSideViewDFS(root3));
+        System.out.println();
 
         // Test case 4: [1,2,3,4] → Expected: [1,3,4]
         Integer[] arr4 = {1, 2, 3, 4};

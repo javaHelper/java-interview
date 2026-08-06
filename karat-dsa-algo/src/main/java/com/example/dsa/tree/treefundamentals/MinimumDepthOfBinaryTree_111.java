@@ -33,9 +33,14 @@ public class MinimumDepthOfBinaryTree_111 {
     }
 
     public int minDepthDFS(TreeNode root) {
-        if (root == null) return 0;
-        if (root.left == null && root.right == null) return 1;
+        if (root == null) {
+            return 0;
+        }
 
+        // root has no branches
+        if (root.left == null && root.right == null) {
+            return 1;
+        }
         /*
          * CRITICAL FIX:
          * A node with only one child is NOT a leaf.

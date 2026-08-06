@@ -1,6 +1,7 @@
 package com.example.dsa.array;
 
 public class StringReduce_interview {
+
     public static int stringReduce(String str) {
         StringBuilder stack = new StringBuilder();
 

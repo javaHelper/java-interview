@@ -21,19 +21,18 @@ public class DiameterOfBinaryTree_543 {
     private int diameter = 0;
 
     public int diameterOfBinaryTreeRecursive(TreeNode root) {
-        diameter = 0;
-        calculateHeight(root);
+        height(root);
         return diameter;
     }
 
-    private int calculateHeight(TreeNode node) {
+    private int height(TreeNode node) {
         if (node == null) {
             return 0;
         }
 
         // Get height of left and right subtrees
-        int leftHeight = calculateHeight(node.left);
-        int rightHeight = calculateHeight(node.right);
+        int leftHeight = height(node.left);
+        int rightHeight = height(node.right);
 
         // Update diameter: longest path passing through this node
         diameter = Math.max(diameter, leftHeight + rightHeight);

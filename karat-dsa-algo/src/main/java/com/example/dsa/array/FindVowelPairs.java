@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindVowelPairs {
-    private static boolean isVowel(char ch) {
+    private boolean isVowel(char ch) {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
 
-    private static List<String> getVowelPairs(String str) {
+    private List<String> getVowelPairs(String str) {
         List<String> pairs = new ArrayList<>();
 
         for (int i = 0; i < str.length() - 1; i++) {
@@ -20,6 +20,7 @@ public class FindVowelPairs {
     }
 
     public static void main(String[] args) {
-        System.out.println(getVowelPairs("abaebio"));
+        FindVowelPairs sol = new FindVowelPairs();
+        System.out.println(sol.getVowelPairs("abaebio"));  // ae, io
     }
 }

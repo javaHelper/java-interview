@@ -6,13 +6,25 @@ import com.example.dsa.tree.TreeNode;
 import java.util.Stack;
 
 public class SameTree_100 {
-    public boolean isSameTreeRecursive(TreeNode p, TreeNode q) {
-        if (p == null && q == null) return true;
-        if (p == null || q == null) return false;
-        if (p.val != q.val) return false;
 
-        return isSameTreeRecursive(p.left, q.left) &&
-                isSameTreeRecursive(p.right, q.right);
+    // recursive approach
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        // Step 1: Both nodes are null → identical
+        if (p == null && q == null) {
+            return true;
+        }
+
+        // Step 2: One is null, the other is not → not identical
+        if (p == null || q == null) {
+            return false;
+        }
+
+        // Step 3: Values differ → not identical
+        if (p.val != q.val) {
+            return false;
+        }
+
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 
     public boolean isSameTreeIterative(TreeNode p, TreeNode q) {
@@ -41,7 +53,7 @@ public class SameTree_100 {
         Integer[] arr2 = {1, 2, 3};
         TreeNode root1 = BuildLevelOrderArray.buildTreeLevelOrder(arr1);
         TreeNode root2 = BuildLevelOrderArray.buildTreeLevelOrder(arr2);
-        System.out.println("Test 1 (Recursive): " + solution.isSameTreeRecursive(root1, root2));
+        System.out.println("Test 1 (Recursive): " + solution.isSameTree(root1, root2));
         System.out.println("Test 1 (Iterative): " + solution.isSameTreeIterative(root1, root2));
 
         // Test case 2: [1,2] and [1,null,2] → false
@@ -49,7 +61,7 @@ public class SameTree_100 {
         Integer[] arr4 = {1, null, 2};
         TreeNode root3 = BuildLevelOrderArray.buildTreeLevelOrder(arr3);
         TreeNode root4 = BuildLevelOrderArray.buildTreeLevelOrder(arr4);
-        System.out.println("Test 2 (Recursive): " + solution.isSameTreeRecursive(root3, root4));
+        System.out.println("Test 2 (Recursive): " + solution.isSameTree(root3, root4));
         System.out.println("Test 2 (Iterative): " + solution.isSameTreeIterative(root3, root4));
 
         // Test case 3: [1,2,1] and [1,1,2] → false
@@ -57,7 +69,7 @@ public class SameTree_100 {
         Integer[] arr6 = {1, 1, 2};
         TreeNode root5 = BuildLevelOrderArray.buildTreeLevelOrder(arr5);
         TreeNode root6 = BuildLevelOrderArray.buildTreeLevelOrder(arr6);
-        System.out.println("Test 3 (Recursive): " + solution.isSameTreeRecursive(root5, root6));
+        System.out.println("Test 3 (Recursive): " + solution.isSameTree(root5, root6));
         System.out.println("Test 3 (Iterative): " + solution.isSameTreeIterative(root5, root6));
 
         // Test case 4: [] and [] → true (empty trees)
@@ -65,7 +77,7 @@ public class SameTree_100 {
         Integer[] arr8 = {};
         TreeNode root7 = BuildLevelOrderArray.buildTreeLevelOrder(arr7);
         TreeNode root8 = BuildLevelOrderArray.buildTreeLevelOrder(arr8);
-        System.out.println("Test 4 (Recursive): " + solution.isSameTreeRecursive(root7, root8));
+        System.out.println("Test 4 (Recursive): " + solution.isSameTree(root7, root8));
         System.out.println("Test 4 (Iterative): " + solution.isSameTreeIterative(root7, root8));
 
         // Test case 5: [1] and [1] → true
@@ -73,7 +85,7 @@ public class SameTree_100 {
         Integer[] arr10 = {1};
         TreeNode root9 = BuildLevelOrderArray.buildTreeLevelOrder(arr9);
         TreeNode root10 = BuildLevelOrderArray.buildTreeLevelOrder(arr10);
-        System.out.println("Test 5 (Recursive): " + solution.isSameTreeRecursive(root9, root10));
+        System.out.println("Test 5 (Recursive): " + solution.isSameTree(root9, root10));
         System.out.println("Test 5 (Iterative): " + solution.isSameTreeIterative(root9, root10));
     }
 }

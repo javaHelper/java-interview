@@ -1,12 +1,6 @@
 package com.example.dsa.array;
 
 public class BestTimeToBuySellStock_121 {
-    static void main() {
-        BestTimeToBuySellStock_121 x = new BestTimeToBuySellStock_121();
-        System.out.println(x.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
-        System.out.println(x.maxProfit(new int[]{7, 6, 4, 3, 1}));
-    }
-
     public int maxProfit(int[] prices) {
         int minSoFar = prices[0];
         int answer = 0;
@@ -19,5 +13,11 @@ public class BestTimeToBuySellStock_121 {
             minSoFar = Math.min(prices[i], minSoFar);
         }
         return answer;
+    }
+
+    static void main() {
+        BestTimeToBuySellStock_121 x = new BestTimeToBuySellStock_121();
+        System.out.println(x.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
+        System.out.println(x.maxProfit(new int[]{7, 6, 4, 3, 1}));
     }
 }

@@ -1,5 +1,6 @@
 package com.example.dsa.hashtable;
 
+import javax.management.MBeanAttributeInfo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -36,5 +37,13 @@ public class GroupAnagrams_49 {
 
         // Step 6: Return all the grouped lists
         return new ArrayList<>(map.values());
+    }
+
+    static void main() {
+        GroupAnagrams_49 sol = new GroupAnagrams_49();
+
+        List<List<String>> lists = sol.groupAnagrams(
+                new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
+        System.out.println(lists);
     }
 }
