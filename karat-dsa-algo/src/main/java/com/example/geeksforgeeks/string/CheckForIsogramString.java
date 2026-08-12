@@ -1,6 +1,7 @@
 package com.example.geeksforgeeks.string;
 
 public class CheckForIsogramString {
+
     static boolean isIsogram(String data) {
         int[] freq = new int[26];
         for (char c : data.toCharArray()) {

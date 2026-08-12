@@ -3,6 +3,9 @@ package com.example.dsa.array;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Was ask in HP
+ */
 public class FindVowelPairs {
     private boolean isVowel(char ch) {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';

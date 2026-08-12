@@ -6,12 +6,12 @@ import java.util.List;
 public class ThirdLargest {
 
     public int thirdLargest(List<Integer> arr) {
-        int n = arr.size();
-        if (n < 3) return -1;
-
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-        int thirdLargest = Integer.MIN_VALUE;
+        if (arr.size() < 3) {
+            return -1;
+        }
+        int largest = 0;
+        int secondLargest = 0;
+        int thirdLargest = 0;
 
         for (int num : arr) {
             if (num > largest) {
@@ -25,7 +25,6 @@ public class ThirdLargest {
                 thirdLargest = num;
             }
         }
-
         return thirdLargest;
     }
 

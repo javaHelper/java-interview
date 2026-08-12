@@ -1,7 +1,12 @@
 package com.example.geeksforgeeks.string;
 
 public class SearchACharacterInAString {
-    public  int searchCharacter(String s, char ch) {
+
+    public  int searchCharacter(String s, char ch){
+        return s.indexOf(ch);
+    }
+
+    public  int searchCharacter1(String s, char ch) {
         // Traverse the string character by character[reference:3]
         for (int i = 0; i < s.length(); i++) {
             // If current character matches, return its index[reference:4]
@@ -16,5 +21,6 @@ public class SearchACharacterInAString {
     static void main() {
         SearchACharacterInAString sol = new SearchACharacterInAString();
         System.out.println(sol.searchCharacter("geeksforgeeks", 'k'));
+        System.out.println(sol.searchCharacter("geeksforgeeks",'z'));
     }
 }

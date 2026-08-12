@@ -2,15 +2,15 @@
 
 Phase 2 – Character Frequency (HashMap / Array)
 
-    Valid Anagram           (LC 242)
-    First Unique Character  (LC 387)
-    Find the Difference     (LC 389)
-    Ransom Note             (LC 383)
+    Valid Anagram               (LC 242)
+    First Unique Character      (LC 387)
+    Find the Difference         (LC 389)
+    Ransom Note                 (LC 383)
     Count Characters
     Character Frequency
     Most Frequent Character
     Remove Duplicates
-    Check Isomorphic Strings (LC 205)
+    Check Isomorphic Strings    (LC 205)
 
 -------------
 

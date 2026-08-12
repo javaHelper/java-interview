@@ -10,6 +10,7 @@ public class ContainerWithMostWater_11 {
             int width = right - left;
             int currentHeight = Math.min(height[left], height[right]);
             int currentArea = width * currentHeight;
+
             maxWater = Math.max(maxWater, currentArea);
 
             // Move the pointer pointing to the shorter line

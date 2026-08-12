@@ -31,10 +31,10 @@ public class MostFrequentCharacter {
         // Test cases
         System.out.println(sol.getMaxOccuringChar("testsample"));   // e
         System.out.println(sol.getMaxOccuringChar("geeksforgeeks")); // e
-        System.out.println(sol.getMaxOccuringChar("test"));         // t
-        System.out.println(sol.getMaxOccuringChar("aabbcc"));       // a
-        System.out.println(sol.getMaxOccuringChar("abcde"));        // a
-        System.out.println(sol.getMaxOccuringChar("zzzz"));         // z
-        System.out.println(sol.getMaxOccuringChar("aabbbcc"));      // b
+//        System.out.println(sol.getMaxOccuringChar("test"));         // t
+//        System.out.println(sol.getMaxOccuringChar("aabbcc"));       // a
+//        System.out.println(sol.getMaxOccuringChar("abcde"));        // a
+//        System.out.println(sol.getMaxOccuringChar("zzzz"));         // z
+//        System.out.println(sol.getMaxOccuringChar("aabbbcc"));      // b
     }
 }

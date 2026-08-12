@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class ImplementStackUsingQueues_225 {
     static class MyStack {
-        private Queue<Integer> queue;
+        private final Queue<Integer> queue;
 
         public MyStack() {
             queue = new LinkedList<>();

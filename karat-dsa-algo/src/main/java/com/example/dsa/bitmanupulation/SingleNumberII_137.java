@@ -1,5 +1,9 @@
 package com.example.dsa.bitmanupulation;
 
+/**
+ * Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.
+ * You must implement a solution with a linear runtime complexity and use only constant extra space.
+ */
 public class SingleNumberII_137 {
     /**
      * How it works:
@@ -9,8 +13,6 @@ public class SingleNumberII_137 {
      * Similarly, twos ^ num toggles bits, and & ~ones clears bits that are already in ones
      * (meaning they've appeared three times and should be reset to 0)
      */
-
-
     public int singleNumber(int[] nums) {
         int ones = 0; // Bits that have appeared 1 time (mod 3)
         int twos = 0; // Bits that have appeared 2 times (mod 3)

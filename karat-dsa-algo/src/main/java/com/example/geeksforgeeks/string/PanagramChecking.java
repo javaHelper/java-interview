@@ -1,11 +1,15 @@
 package com.example.geeksforgeeks.string;
 
 public class PanagramChecking {
+    /**
+     * A "Panagram" is a sentence containing every letter in the English Alphabet
+     * either in lowercase or Uppercase.
+     */
     public static boolean checkPangram(String s) {
+        s = s.toLowerCase();
         boolean[] seen = new boolean[26];
 
         for (char ch : s.toCharArray()) {
-            ch = Character.toLowerCase(ch);
             if (ch >= 'a' && ch <= 'z') {
                 seen[ch - 'a'] = true;
             }

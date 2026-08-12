@@ -3,29 +3,35 @@ package com.example.dsa.twopointers;
 public class ValidPalindromeII_680 {
 
     public boolean validPalindrome(String s) {
-        int i = 0;
-        int j = s.length() - 1;
+        int left = 0;
+        int right = s.length() - 1;
 
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
                 // Mismatch found → check both deletion possibilities
-                return isPalindrome(s, i + 1, j) || isPalindrome(s, i, j - 1);
+                return isPalindrome(s, left + 1, right) || isPalindrome(s, left, right - 1);
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
         return true; // Already a palindrome
     }
 
-    // Helper method to check if substring s[i...j] is a palindrome
-    private boolean isPalindrome(String s, int i, int j) {
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
+    // Helper method to check if substring s[left...right] is a palindrome
+    private boolean isPalindrome(String s, int left, int right) {
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
                 return false;
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
         return true;
+    }
+
+    static void main() {
+        ValidPalindromeII_680 x = new  ValidPalindromeII_680();
+        //System.out.println(x.validPalindrome("aba"));
+        System.out.println(x.validPalindrome("abca"));
     }
 }

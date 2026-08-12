@@ -13,7 +13,6 @@ public class Anagram {
             freq[s2.charAt(i) - 'a']--;
         }
 
-
         for(int num: freq){
             if(num != 0){
                 return false;

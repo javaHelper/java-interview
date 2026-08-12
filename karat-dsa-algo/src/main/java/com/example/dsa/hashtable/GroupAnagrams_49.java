@@ -42,8 +42,7 @@ public class GroupAnagrams_49 {
     static void main() {
         GroupAnagrams_49 sol = new GroupAnagrams_49();
 
-        List<List<String>> lists = sol.groupAnagrams(
-                new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
+        List<List<String>> lists = sol.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
         System.out.println(lists);
     }
 }

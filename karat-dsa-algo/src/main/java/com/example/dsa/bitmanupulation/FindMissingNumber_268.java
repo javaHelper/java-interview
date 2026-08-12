@@ -1,5 +1,6 @@
 package com.example.dsa.bitmanupulation;
 
+// https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,Strings&difficulty=Easy&status=solved&sortBy=difficulty
 public class FindMissingNumber_268 {
     public int missingNumber(int[] nums) {
         int n = nums.length;
