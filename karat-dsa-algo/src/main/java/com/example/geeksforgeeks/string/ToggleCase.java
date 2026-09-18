@@ -44,7 +44,7 @@ public class ToggleCase {
 
     static void main() {
         ToggleCase sol = new ToggleCase();
-        System.out.println(sol.toggleCase("geeksForgEeks"));
+       // System.out.println(sol.toggleCase("geeksForgEeks"));
 
         System.out.println("==== Toggle Using Bitwise ====");
         System.out.println(sol.toggleCaseUsingBitwise("geeksForgEeks"));

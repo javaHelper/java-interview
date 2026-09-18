@@ -3,6 +3,11 @@ package com.example.geeksforgeeks.string;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+    Given a string S. The task is to count the number of substrings which contains equal
+    number of lowercase and uppercase letters.
+ */
+
 public class CountTheSubstrings {
     int countSubstring(String S) {
         Map<Integer, Integer> freq = new HashMap<>();
@@ -17,9 +22,9 @@ public class CountTheSubstrings {
             } else {
                 balance--;
             }
-            ans = ans + freq.getOrDefault(balance, 0);
-
-            freq.put(balance, freq.getOrDefault(balance, 0) + 1);
+            Integer val = freq.getOrDefault(balance, 0);
+            ans = ans + val;
+            freq.put(balance, val + 1);
         }
         return ans;
     }

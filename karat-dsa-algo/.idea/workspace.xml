@@ -5,113 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="583767f6-adb2-44f1-b3a1-d775d2d5c579" name="Changes" comment="DSA Leetcode">
-      <change afterPath="$PROJECT_DIR$/geeksforgeeks-readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/low/StringToIntegerManually.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/AsteroidCollision_735.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/BaseballGame_682.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/MaximumNestingDepthOfTheParentheses_1614.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/RemoveAllAdjacentDuplicatesInString_1047.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/RemoveDuplicateLetters_316.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/RemovingStarsFromAString_2390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/SimplifyPath_71.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/ValidParenthesisString_678.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/string/CountAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/string/DetermineIfTwoStringsAreClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/string/OneEditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/binarysearchtree/DeletionInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/binarysearchtree/InsertionInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/binarysearchtree/SearchInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/ArraySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/CheckForIsogramString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/CompressString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/MaxValuePermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/MinAndMaxInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/MissingInSecondArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/MostFrequentInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/prefixsum/MaximumPopulationYear_1854.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/prefixsum/PrefixSumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/prefixsum/RangeSumQueryImmutable_303.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/prefixsum/RunningSumof1dArray_1480.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/queue/MaximumNodeLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/queue/QueueUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/queue/QueueUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/queue/ReverseFirstKOfAQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/DigitalRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/FirstNFibonacciUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/MeanOfArrayUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/One1ToNWithoutLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/recursion/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/DeleteMidOfAStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/ParenthesisChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/ReverseAnArrayUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/StockSpanProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckForSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountWordsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/DecimalToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/DivisibleBy7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ReverseStringUsingTwoPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ReverseWordsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/StringRotatedBy2Places.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/SumNumberInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/SumTwoLargeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/BSTInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/CheckForBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/KthLargestInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/LargestValueInEachLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/MaxAndMinElementInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/MaximumWidthOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/RootToLeafPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree-learning-read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/slidingwindow/MaximumAverageSubarrayI_643.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/slidingwindow/MaximumSumOfDistinctSubarraysWithLengthK_2461.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/slidingwindow/NumberOfSubAarraysOfSizeK_1343.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/MoveAllNegativeElementsToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/RemoveDuplicatesSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/SmallestSubarraySumGreaterThanX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/slidingwindow/SmallestSubarraySumGreaterThanX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/slidingwindow/learn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CatAndHat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckIfTheNumberIsBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ConvertStringToLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/FirstOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/MinNumberOfFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/RepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/RunLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/StringDuplicatesRemoval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/path-read-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/path-read-me.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/AddStrings_415.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/AddStrings_415.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/DestinationCity_1436.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindPivotIndex_724.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/prefixsum/FindPivotIndex_724.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindVowelPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindVowelPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FirstUniqueCharInString_387.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/characterfrequency/FirstUniqueCharInString_387.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/LargestOddNumberInString_1903.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/LargestOddNumberInString_1903.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/LengthOfLastWord_58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/string/LengthOfLastWord_58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/characterfrequency/RansomNote_383.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/RotateString_796.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/RotateString_796.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/StringReduce_interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/StringReduce_interview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/bitmanupulation/FindMissingNumber_268.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/bitmanupulation/FindMissingNumber_268.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/bitmanupulation/FindTheDifference_389.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/characterfrequency/FindTheDifference_389.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/bitmanupulation/SingleNumberII_137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/bitmanupulation/SingleNumberII_137.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/GroupAnagrams_49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/GroupAnagrams_49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/Sum3_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/Sum3_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/TwoSum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/TwoSum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/hashtable/ValidAnagram_242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/characterfrequency/ValidAnagram_242.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/low/SumTwoIntegers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/CarFleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/CarFleet_853.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/ImplementStackUsingQueues_225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/stack/ImplementStackUsingQueues_225.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/BuildLevelOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/BuildLevelOrderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/treefundamentals/MaximumDepthOfBinaryTree_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/tree/treefundamentals/MaximumDepthOfBinaryTree_104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/ContainerWithMostWater_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/ContainerWithMostWater_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/TrappingRainWater_42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/TrappingRainWater_42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/ValidPalindromeII_680.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/twopointers/ValidPalindromeII_680.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/HammingDistanceTwoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/HammingDistanceTwoString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/PalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/SecondLargest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/ThirdLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/ThirdLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/sorting/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/sorting/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindHighestAltitude_1732.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindHighestAltitude_1732.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/MajorityElement_169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dsa/array/MajorityElement_169.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckForIsogramString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckForIsogramString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckForSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckForSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountEvenLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountEvenLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountTheSubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountTheSubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountWordsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/FirstRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/FirstRepeatedCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/MostFrequentCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/MostFrequentCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/PanagramChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/PanagramChecking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ReverseUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/ReverseUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/stack/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/SearchACharacterInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/SearchACharacterInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ToggleCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/ToggleCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/BalancedTreeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/BalancedTreeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/BuildTreeLevelOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/BuildTreeLevelOrderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/SizeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/tree/SizeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/dsa/hashtable/ValidAnagram_242Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/dsa/hashtable/ValidAnagram_242Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,20 +102,23 @@
     "Application.BinaryTreeRightSideView_199.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.Candy_135.executor": "Debug",
+    "Application.CatAndHat.executor": "Run",
     "Application.CharacterLearning.executor": "Run",
     "Application.CheckForBST.executor": "Run",
     "Application.CheckForIsogramString.executor": "Debug",
-    "Application.CheckForSubsequence.executor": "Run",
+    "Application.CheckForSubsequence.executor": "Debug",
+    "Application.CheckIfTheNumberIsBalanced.executor": "Debug",
     "Application.CheckIfTwoStringsAreSameOrNot.executor": "Run",
     "Application.Classroom.executor": "Run",
     "Application.ClimbingStairs_70.executor": "Debug",
     "Application.CompressString.executor": "Debug",
     "Application.ContainsDuplicate.executor": "Run",
+    "Application.ConvertStringToLowerCase.executor": "Run",
     "Application.CountADigitInArray.executor": "Run",
     "Application.CountAndSay.executor": "Run",
     "Application.CountEvenLetters.executor": "Debug",
     "Application.CountFrequentElements.executor": "Run",
-    "Application.CountTheSubstrings.executor": "Run",
+    "Application.CountTheSubstrings.executor": "Debug",
     "Application.CountTheZeros.executor": "Debug",
     "Application.CountWordsInAString.executor": "Run",
     "Application.CountingBits_338.executor": "Run",
@@ -221,7 +144,7 @@
     "Application.FindAllDuplicatesInAnArray_442.executor": "Debug",
     "Application.FindBottomLeftTreeValueUsingDFS_513.executor": "Debug",
     "Application.FindBottomLeftTreeValue_513.executor": "Run",
-    "Application.FindHighestAltitude_1732.executor": "Run",
+    "Application.FindHighestAltitude_1732.executor": "Debug",
     "Application.FindMinValueInArray.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
     "Application.FindMissingNumberFrom1_268.executor": "Run",
@@ -235,7 +158,8 @@
     "Application.FirstBadVersion_278.executor": "Run",
     "Application.FirstConstructibleWord.executor": "Run",
     "Application.FirstNFibonacciUsingRecursion.executor": "Run",
-    "Application.FirstRepeatedCharacter.executor": "Run",
+    "Application.FirstOccurence.executor": "Debug",
+    "Application.FirstRepeatedCharacter.executor": "Debug",
     "Application.FirstUniqueCharInString_387.executor": "Debug",
     "Application.FlattenBinaryTreeToLinkedList_114.executor": "Run",
     "Application.FloorInBST.executor": "Run",
@@ -269,6 +193,7 @@
     "Application.MaxFrequencyWord.executor": "Run",
     "Application.MaxNumberOfBalloons.executor": "Run",
     "Application.MaxValuePermutation.executor": "Run",
+    "Application.MaximumAverageSubarrayI_643.executor": "Run",
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumDepthOfBinaryTree_104.executor": "Run",
     "Application.MaximumNestingDepthOfTheParentheses.executor": "Run",
@@ -276,12 +201,14 @@
     "Application.MaximumNodeLevel.executor": "Run",
     "Application.MaximumProductSubarray_152.executor": "Run",
     "Application.MaximumSubarray_53.executor": "Debug",
+    "Application.MaximumSumOfDistinctSubarraysWithLengthK_2461.executor": "Run",
     "Application.MaximumWidthOfTree.executor": "Run",
     "Application.MeanOfArrayUsingRecursion.executor": "Run",
     "Application.MergeSortedArray_88.executor": "Run",
     "Application.MergeTwoSortedLists_21.executor": "Run",
     "Application.MergeTwoUnsortedArrays.executor": "Debug",
     "Application.MiddleOfTheLinkedList_876.executor": "Run",
+    "Application.MinNumberOfFlips.executor": "Debug",
     "Application.MinStack_155.executor": "Run",
     "Application.MinimumDepthOfABinaryTree.executor": "Run",
     "Application.MinimumDepthOfBinaryTree_111.executor": "Debug",
@@ -293,6 +220,7 @@
     "Application.MissingNumber_268.executor": "Run",
     "Application.MostFrequentCharacter.executor": "Debug",
     "Application.MostFrequentInAnArray.executor": "Run",
+    "Application.MoveAllNegativeElementsToEnd.executor": "Debug",
     "Application.MoveZeros.executor": "Run",
     "Application.MyQueue.executor": "Debug",
     "Application.NextGreaterElement.executor": "Run",
@@ -301,6 +229,7 @@
     "Application.NumberComplement_476.executor": "Run",
     "Application.NumberOf1Bits_191.executor": "Run",
     "Application.NumberOfSegmentsInString_434.executor": "Run",
+    "Application.NumberOfSubAarraysOfSizeK_1343.executor": "Debug",
     "Application.OddEvenLinkedList_328.executor": "Run",
     "Application.One1ToNWithoutLoops.executor": "Run",
     "Application.OneEditDistance.executor": "Run",
@@ -322,8 +251,10 @@
     "Application.RemoveAdjDuplicatesInString.executor": "Run",
     "Application.RemoveAllAdjacentDuplicatesInString_1047.executor": "Debug",
     "Application.RemoveDuplicatesFromSortedList_83.executor": "Run",
-    "Application.RemoveDuplicatesSortedArray_26.executor": "Debug",
+    "Application.RemoveDuplicatesSortedArray.executor": "Debug",
+    "Application.RemoveDuplicatesSortedArray_26.executor": "Run",
     "Application.RemoveLinkedListElements_203.executor": "Debug",
+    "Application.RepeatingCharacter.executor": "Run",
     "Application.ReplaceWord.executor": "Run",
     "Application.ReverseAStack.executor": "Run",
     "Application.ReverseAString.executor": "Run",
@@ -344,6 +275,7 @@
     "Application.RotateBits.executor": "Run",
     "Application.RotateList_61.executor": "Run",
     "Application.RotateString_796.executor": "Debug",
+    "Application.RunLengthEncoding.executor": "Debug",
     "Application.RunningSumof1dArray_1480.executor": "Run",
     "Application.SameTree_100.executor": "Run",
     "Application.SearchACharacterInAString.executor": "Run",
@@ -357,6 +289,7 @@
     "Application.SingleNumberII_137.executor": "Run",
     "Application.SizeOfBinaryTree.executor": "Run",
     "Application.SlidingWindowMaximum_239.executor": "Run",
+    "Application.SmallestSubarraySumGreaterThanX.executor": "Debug",
     "Application.SortAStack.executor": "Run",
     "Application.SortBySetBitCount (1).executor": "Debug",
     "Application.SortBySetBitCount.executor": "Debug",
@@ -364,6 +297,7 @@
     "Application.SquaresOfASortedArray_977.executor": "Run",
     "Application.StockBuySell.executor": "Run",
     "Application.StockSpanProblem.executor": "Run",
+    "Application.StringDuplicatesRemoval.executor": "Run",
     "Application.StringReduce_interview.executor": "Debug",
     "Application.StringRotatedBy2Places.executor": "Run",
     "Application.StringToIntegerManually.executor": "Run",
@@ -497,13 +431,13 @@
       <recent name="com.example.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseFirstKOfAQueue">
-    <configuration name="GroupAnagrams_49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.dsa.hashtable.GroupAnagrams_49" />
+  <component name="RunManager" selected="Application.CountWordsInAString">
+    <configuration name="CheckIfTheNumberIsBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.string.CheckIfTheNumberIsBalanced" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.dsa.hashtable.*" />
+          <option name="PATTERN" value="com.example.geeksforgeeks.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,12 +445,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNestingDepthOfTheParentheses_1614" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.dsa.stack.MaximumNestingDepthOfTheParentheses_1614" />
+    <configuration name="ConvertStringToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.string.ConvertStringToLowerCase" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.dsa.stack.*" />
+          <option name="PATTERN" value="com.example.geeksforgeeks.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,12 +458,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseFirstKOfAQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.queue.ReverseFirstKOfAQueue" />
+    <configuration name="CountEvenLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.string.CountEvenLetters" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.geeksforgeeks.queue.*" />
+          <option name="PATTERN" value="com.example.geeksforgeeks.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,12 +471,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.dsa.twopointers.TrappingRainWater_42" />
+    <configuration name="CountTheSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.string.CountTheSubstrings" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.example.geeksforgeeks.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -550,12 +484,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeII_680" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.dsa.twopointers.ValidPalindromeII_680" />
+    <configuration name="CountWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.geeksforgeeks.string.CountWordsInAString" />
       <module name="karat-dsa-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.example.geeksforgeeks.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -565,11 +499,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseFirstKOfAQueue" />
-        <item itemvalue="Application.TrappingRainWater_42" />
-        <item itemvalue="Application.GroupAnagrams_49" />
-        <item itemvalue="Application.ValidPalindromeII_680" />
-        <item itemvalue="Application.MaximumNestingDepthOfTheParentheses_1614" />
+        <item itemvalue="Application.CountWordsInAString" />
+        <item itemvalue="Application.CountTheSubstrings" />
+        <item itemvalue="Application.CountEvenLetters" />
+        <item itemvalue="Application.ConvertStringToLowerCase" />
+        <item itemvalue="Application.CheckIfTheNumberIsBalanced" />
       </list>
     </recent_temporary>
   </component>
@@ -660,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786020966402</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DSA Leetcode">
+      <option name="closed" value="true" />
+      <created>1786507250402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1786507250402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -720,6 +662,96 @@
           <line>33</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/array/RemoveDuplicatesSortedArray_26.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/RemoveDuplicatesSortedArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/array/SmallestSubarraySumGreaterThanX.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/array/AddStrings_415.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/array/FindHighestAltitude_1732.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/array/MajorityElement_169.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/array/MajorityElement_169.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountTheSubstrings.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountWordsInAString.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/FirstOccurence.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/MostFrequentCharacter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/RunLengthEncoding.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/slidingwindow/MaximumAverageSubarrayI_643.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/dsa/slidingwindow/NumberOfSubAarraysOfSizeK_1343.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/slidingwindow/SmallestSubarraySumGreaterThanX.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/MinNumberOfFlips.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CheckIfTheNumberIsBalanced.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/geeksforgeeks/string/CountEvenLetters.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -735,6 +767,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/karat_dsa_algo$BinaryTreeLevelOrderTraversal_102.ic" NAME="BinaryTreeLevelOrderTraversal_102 Coverage Results" MODIFIED="1785842739681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.example.dsa.tree.treefundamentals.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/karat_dsa_algo$CountWordsInAString.ic" NAME="CountWordsInAString Coverage Results" MODIFIED="1786815555902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.geeksforgeeks.string.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/karat_dsa_algo$ReverseFirstKOfAQueue.ic" NAME="ReverseFirstKOfAQueue Coverage Results" MODIFIED="1786302251945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.example.geeksforgeeks.queue.*</FILTER>

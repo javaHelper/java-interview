@@ -12,7 +12,7 @@ public class FindHighestAltitude_1732 {
         int currentAltitude = 0;
         int maxAltitude = 0;
         for (int g : gain) {
-            currentAltitude += g;          // Update current altitude[reference:10]
+            currentAltitude = currentAltitude + g;          // Update current altitude[reference:10]
             maxAltitude = Math.max(maxAltitude, currentAltitude); // Track maximum[reference:11]
         }
         return maxAltitude;

@@ -8,30 +8,30 @@ package com.example.geeksforgeeks.string;
  */
 public class CheckForSubsequence {
 
-        public boolean isSubSeq(String s1, String s2) {
-            // bases cases
-            if (s1.isEmpty()) {
-                return true;
-            }
-            if (s1.length() > s2.length()) {
-                return false;
-            }
-
-            int left = 0;
-            int right = 0;
-
-            while (left < s1.length() && right < s2.length()) {
-                if (s1.charAt(left) == s2.charAt(right)) {
-                    left++;
-                }
-                right++;
-            }
-            return left == s1.length();
+    public boolean isSubSeq(String s1, String s2) {
+        // bases cases
+        if (s1.isEmpty()) {
+            return true;
         }
+        if (s1.length() > s2.length()) {
+            return false;
+        }
+
+        int left = 0;
+        int right = 0;
+
+        while (left < s1.length() && right < s2.length()) {
+            if (s1.charAt(left) == s2.charAt(right)) {
+                left++;
+            }
+            right++;
+        }
+        return left == s1.length();
+    }
 
     static void main() {
         CheckForSubsequence s = new CheckForSubsequence();
-        //System.out.println(s.isSubSeq("AXY", "YADXCP"));
-      System.out.println(s.isSubSeq("gksrek", "geeksforgeeks"));
+        System.out.println(s.isSubSeq("AXY", "YADXCP"));
+        System.out.println(s.isSubSeq("gksrek", "geeksforgeeks"));
     }
 }

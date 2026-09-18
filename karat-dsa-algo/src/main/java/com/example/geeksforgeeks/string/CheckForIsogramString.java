@@ -1,5 +1,10 @@
 package com.example.geeksforgeeks.string;
 
+/*
+Given a string s of lowercase alphabets, check if it is Isogram or not.
+An Isogram is a string in which no letter occurs more than once.
+*/
+
 public class CheckForIsogramString {
 
     static boolean isIsogram(String data) {

@@ -2,6 +2,13 @@ package com.example.dsa.array;
 
 public class AddStrings_415 {
 
+    /**
+     * num1 = "123", num2 = "45"
+     * - i=2, j=1: 3+5+0=8 → append '8', carry=0
+     * - i=1, j=0: 2+4+0=6 → append '6', carry=0
+     * - i=0, j=-1: 1+0+0=1 → append '1', carry=0
+     * - result = "861" → reversed = "168"
+     */
     public String addStrings(String num1, String num2) {
         int i = num1.length() - 1;
         int j = num2.length() - 1;

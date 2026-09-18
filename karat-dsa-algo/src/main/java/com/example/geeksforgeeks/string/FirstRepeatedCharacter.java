@@ -4,19 +4,17 @@ public class FirstRepeatedCharacter {
 
     String firstRepChar(String s) {
         int[] freq = new int[26];
-        String str = "";
 
-        for (int i = 0; i < s.length(); i++) {
-            freq[s.charAt(i) - 'a']++;
-            if (freq[s.charAt(i) - 'a'] > 1) {
-                str += s.charAt(i);
-                return str;
+        for (char ch : s.toCharArray()) {
+            freq[ch - 'a']++;               // increment frequency for this character
+            if (freq[ch - 'a'] > 1) {
+                return String.valueOf(ch);  // return the character as a string
             }
         }
         return "-1";
     }
 
-   /*
+    /*
         Time: O(n)
         Space: O(1)
     */

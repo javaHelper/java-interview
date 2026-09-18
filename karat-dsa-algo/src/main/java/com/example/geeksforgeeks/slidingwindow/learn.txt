@@ -1,0 +1,26 @@
+1. 643   Maximum Average Subarray I
+2. 1343  Number of Sub-arrays of Size K
+3. 1456  Maximum Number of Vowels
+4. 2461  Maximum Sum of Distinct Subarrays
+5. 209   Minimum Size Subarray Sum
+6. 1004  Max Consecutive Ones III
+7. 904   Fruit Into Baskets
+8. 3     Longest Substring Without Repeating Characters
+9. 159   At Most Two Distinct Characters
+10. 340  At Most K Distinct Characters
+11. 424  Longest Repeating Character Replacement
+12. 438  Find All Anagrams
+13. 567  Permutation in String
+14. 76   Minimum Window Substring
+15. 1695 Maximum Erasure Value
+16. 1493 Longest Subarray of 1's
+17. 1658 Minimum Operations to Reduce X
+18. 2024 Maximize the Confusion
+19. 2302 Count Subarrays With Score Less Than K
+20. 239  Sliding Window Maximum
+21. 1438 Longest Continuous Subarray
+22. 992  Subarrays with K Different Integers
+23. 930  Binary Subarrays With Sum
+24. 1248 Count Number of Nice Subarrays
+25. 30   Substring with Concatenation of All Words
+26. 480  Sliding Window Median

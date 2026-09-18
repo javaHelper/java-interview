@@ -38,10 +38,18 @@ public class MajorityElement_169 {
      *
      * The Intuition: "Pairing and Canceling"
      * ------------------------------------------
-     * Imagine you are in a room full of people wearing jerseys. Each jersey has a number. If two people with different numbers meet,
+     * Imagine you are in a room... full of people wearing jerseys. Each jersey has a number. If two people with different numbers meet,
      * they both "cancel out" and leave the room.
      * If a single number makes up more than half the room, no matter how the canceling happens, that dominant number must have at
      * least one person left standing at the end. The algorithm simulates this exact canceling process.
+     */
+
+    /*
+        Imagine a room full of people wearing numbered jerseys.
+
+            If two people have different jersey numbers, they cancel each other out and both leave.
+            If one jersey number appears more than half the time, that number is so common that at least one person with that number will always remain, no matter how the cancellations happen.
+            The algorithm simply simulates this cancellation process to find the number that remains.
      */
 
     public int majorityElement(int[] nums) {
@@ -68,6 +76,6 @@ public class MajorityElement_169 {
     public static void main(String[] args) {
         MajorityElement_169 x = new MajorityElement_169();
         System.out.println(x.majorityElement(new int[]{3, 2, 3}));
-        System.out.println(x.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
+        //System.out.println(x.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
     }
 }
